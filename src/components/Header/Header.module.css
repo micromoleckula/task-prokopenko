@@ -1,0 +1,16 @@
+.header {
+  background-color: rgb(205, 247, 255);
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+}

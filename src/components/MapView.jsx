@@ -5,7 +5,7 @@ import satellite from "../assets/satellite.png";
 export function MapView({ latitude, longitude }) {
   const { isLoaded } = useJsApiLoader({
     id: "google-map-script",
-    googleMapsApiKey: import.meta.env.VITE_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: "AIzaSyBLPye03amCeJDJQ709KhqBh8lsxl51_2w",
   });
 
   const lat = Number(latitude);
